@@ -1,0 +1,275 @@
+p.suuder{
+	text-shadow: 2px 5px 5px deepskyblue;
+	font-size: 500%;
+}
+.all{
+	display: flex;
+	justify-content: center;
+	height: 200px;
+	text-align: center;
+
+}
+	div.red{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	margin-right: 20px;
+	border: 3px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	
+	
+
+
+}
+div.green{
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	margin-right: 20px;
+	border: 3px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 50px;
+	
+	
+}
+div.blue{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	margin-right: 20px;
+	border: 3px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 100px;
+	
+	
+}
+div.bugd{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+div.pink{
+	width: 200px;
+	height: 200px;
+	background-color: pink;
+	margin-right: 100px;
+	box-shadow: 15px 15px 20px dimgrey;
+
+}
+div.orange{
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+	margin-right: 100px;
+	box-shadow: -15px -15px 30px dimgrey;
+}
+div.yellow{
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+	margin-right: 100px;
+	box-shadow: 15px 15px 10px dimgrey;
+}
+
+div.duruv{
+	width: 500px;
+	height: 500px;
+	background: linear-gradient(45deg, red 5%, orange 15%, yellow 35%, green 45%, blue 65%, indigo 85%, violet 100%);
+}div.circle{
+	width: 500px;
+	height: 500px;
+	background: radial-gradient(at bottom left, red 15%, green 75%, blue 100%);
+}
+div.ani{
+	position: relative;
+	animation: robo Linear 5s infinite 1s alternate;
+}
+@keyframes robo{
+	0%{top: 0; left: 0;}
+	25%{top: 0; left: 200px;}
+	50%{top: 150px; left: 200px;}
+	75%{top: 150px; left: 0;}
+	100%{top: 0; left: 0;}
+}
+.box .textbox{
+	margin-left: 75px;
+	background: lightgreen;
+	height: 100px;
+	width: 200px;
+	padding: 25px 0;
+	text-align: center;
+	font-size: 250%;
+	border: 3px solid DarkGreen;
+	border-radius: 15px;
+	transform: skewX(30deg);
+	transform: skewY(30deg);
+	animation: ske1w 3s infinite Linear alternate;
+}
+@keyframes ske1w{
+	from {transform: skewX(0);}
+	25% {transform: skewY(30deg);}
+	50% {transform: skewY(0);}
+	75% {transform: skewX(30deg);}
+	to {transform: skewX(0);}
+}
+
+.container {
+    position: relative;
+    width: 30%;
+    overflow: hidden;
+}
+.images {
+    display: flex;
+    width: 100%;
+}
+.images img {
+    height: 400px;
+    width: 100%;
+    transition: all 0s linear;
+}
+.images input {
+    display: none;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.button label {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid black 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+.button label:hover {background: red;}
+#img1:checked ~ .m1 {
+    margin-left: 0;
+}
+#img2:checked ~ .m2 {
+    margin-left: -100%;
+}
+#img3:checked ~ .m3 {
+    margin-left: -200%;
+}
+#img4:checked ~ .m4 {
+    margin-left: -300%;
+}
+#img5:checked ~ .m5 {
+    margin-left: -400%;
+}
+
+p.jj{margin: 0.9em 0em;}
+div.multi{
+	column-count: 2;
+
+	column-rule: 5px outset blue;
+}
+
+		.de1{
+			width: 100px;
+			height: 80px;
+			background-color: blue;
+		}
+		.de2{
+			width: 100px;
+			height: 120px;
+			background-color: red;
+		}
+		.de3{
+			width: 100px;
+			height: 100px;
+			background-color: purple;
+		}
+		.niit{
+			display: flex;
+			position: absolute;
+			z-index: 1;
+			position: absolute;
+			top: 50px;
+			left: 35px;
+		}
+		div div div{
+			margin-right: 15px;
+			margin-top: 15px;
+
+		}
+		.do1{
+			width: 100px;
+			height: 110px;
+			background-color: blue;
+		}
+		.do2{
+			width: 100px;
+			height: 110px;
+			background-color: red;
+		}
+		.do3{
+			width: 100px;
+			height: 110px;
+			background-color: purple;
+		}
+		.niit1{
+			display: flex;
+			position: absolute;
+			top: 200px;
+			left: 35px;
+			z-index: 1;
+		}
+		.back{
+			width: 400px;
+			height: 350px;
+			background-color: yellow;
+			position: absolute;
+			text-align: center;
+			
+		}
+.zurag img{
+	width: 400px;
+	height: 100%;
+}
+.z1:hover{
+	transform: scale(1.4, 1.4);
+}
+.z2:hover{
+	transform: scale(1.4, 1.4);
+}
+.z3:hover{
+	transform: scale(1.4, 1.4);
+}
+.z4:hover{
+	transform: scale(1.4, 1.4);
+}
+.para{ margin: 0.9em, 0em; }
+@media handheld and (max-width: 480px),
+screen and (max-device-width: 480px),
+screen and (max-width: 480px){
+	.media{
+		column-count: 1;
+	}
+}
+@media only screen and (min-width: 481px)
+and (max-width: 1024px){
+	.media{
+		column-count: 2;
+		column-rule: 1px outset black;
+		column-gap: 30px;
+	}
+}
+@media only screen and (min-width: 1025px){
+	.media{
+		column-count: 3;
+		column-rule: 1px outset black;
+		column-gap: 30px;
+	}
+}
+.garchig14{
+	margin-left: 550px;
+	text-shadow: 10px 7px 7px black;
+}
